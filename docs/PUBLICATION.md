@@ -1,10 +1,10 @@
 # 首次公开交接范围
 
-建议 GitHub 仓库名：`a7c2-photo-lut-research`。建议简介：
+公开仓库：[MDHan/a7c2-photo-lut-research](https://github.com/MDHan/a7c2-photo-lut-research)。首次发布日期：2026-10-21。仓库简介：
 
 > Offline research handoff for custom LUT still-photo output on Sony A7C II. Source, tests and open tasks; not flash-ready. Contributors welcome.
 
-建议首次发布形式为源码仓库，不创建固件 Release，不附可刷包。README 明确维护者近期时间有限、欢迎接手，以及当前 `NOT_READY_TO_FLASH`。
+首次发布为源码仓库，不创建固件 Release，不附可刷包。README 明确维护者近期时间有限、欢迎接手，以及当前 `NOT_READY_TO_FLASH`。
 
 ## 已整理内容
 
@@ -24,4 +24,4 @@
 
 将 T1–T6 作为可认领 Issue；没有明确认领人时不承诺维护时限。只认定具备对应证据的任务完成，区分主机测试、原厂机器码模拟和真实硬件结果。维护者暂停个人开发时，保留仓库可读和开放 PR，方便他人 fork 继续。
 
-本文件是公开准备说明，不代表远程仓库已经创建或代码已经上传。
+当前技术进度和验证边界见 [STATUS.md](STATUS.md)，接手步骤见 [../START_HERE.md](../START_HERE.md)，具体任务见 [OPEN_TASKS.md](OPEN_TASKS.md)。公开源码和离线检查通过不代表相机实测或可安全刷机。

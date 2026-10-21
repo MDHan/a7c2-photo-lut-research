@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "status": "OFFLINE_REPLAY_PASSED_NOT_READY_TO_FLASH",
+  "camera_io": false,
+  "host_tests": {
+    "count": 12,
+    "result": "passed",
+    "firmware_required": false
+  },
+  "full_replay": {
+    "result": "passed",
+    "source_files_unchanged": true,
+    "candidate_sha256": {
+      "appFw.so": "c7ccc8ca559cfb8784c17414734a5100dde57f102b75e786d6caefdb371f8a5c",
+      "cpapp-b.bin": "bdea55b50c21bc596e806f17bcecebf0d36e43cfec8c19179b07685c10578e70"
+    },
+    "steps": [
+      "verify_lut_events_integration.py",
+      "verify_lut_menu_events.py",
+      "verify_lut_events_readers.py",
+      "verify_lut_events_photo.py",
+      "build_lut_events_candidate.py"
+    ],
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "python": "3.12.14"
+  },
+  "boundaries": [
+    "Original research source files are a byte-identical snapshot; the new entry point stages only the exact private inputs in ignored paths.",
+    "All firmware, compiled output and raw recipes produced in this validation are Git-ignored and excluded from publication.",
+    "Full replay still uses explicit OS, hardware and framework service fixtures; no physical camera or real image output was tested."
+  ]
+}

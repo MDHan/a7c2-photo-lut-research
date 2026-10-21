@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-10-21",
+  "original_validation_date": "2026-10-19",
+  "candidate": "dev-events-05",
+  "status": "NOT_READY_TO_FLASH",
+  "camera_io": false,
+  "firmware_included": false,
+  "hardware_adapter_available": false,
+  "target": "ILCE-7CM2 2.01 exact local FL23 baseline",
+  "outputs_fingerprints_only": {
+    "appFw.so": {
+      "sha256": "c7ccc8ca559cfb8784c17414734a5100dde57f102b75e786d6caefdb371f8a5c",
+      "size": 100026280
+    },
+    "cpapp-b.bin": {
+      "sha256": "bdea55b50c21bc596e806f17bcecebf0d36e43cfec8c19179b07685c10578e70",
+      "size": 18090880
+    }
+  },
+  "original_manifest_sha256": "e560c6d70abb74269bed0c9d618bc316a3c406a4a5c2e7fc6e6ce59783f6f0b9",
+  "original_readiness_sha256": "27b4cc88c63176b6917dcf7cebd7e5d627412f0a4f97beb9a54473c112e93a47",
+  "original_report_sha256": {
+    "lifecycle-dev/events-owner-build/recipe.json": "92eadd7e12073d099a4e7bab1419877fc00deeeb341f74bc7a2ceabb04b9459f",
+    "lifecycle-dev/events-cp-build/recipe.json": "7aeff7aaca2005747ceb503b2a8e34fc97281064d385e2aeb1aa6f5eea5e4fb1",
+    "lifecycle-dev/events-owner-build/verification.json": "ae9380d75d89bf2c14c574c578e60e5948d88a6acc6b716b836170920ffb5b54",
+    "lifecycle-dev/events-cp-build/photo-regression.json": "46d87f00d65eb2c4f72603bd2fa860eb1125bba79cf4bf18750075dd51b41c95",
+    "lifecycle-dev/events-owner-build/menu-events.json": "09541b58d56e3d8e068c5f427193229f9e2496609d811db53dc2b9d1cafc0a5f",
+    "lifecycle-dev/events-cp-build/reader-verification.json": "91246c53b5de4e0829f1062e86948a0979d2a13777f5c3e205deeba85516305a",
+    "dev-events-05/menu-verification.json": "756e0aa9f468199938fdbedc4c48e92f946755b94c8e940cb8df92ca6d1bb825"
+  },
+  "upload": {
+    "cold_cases": 2,
+    "flows": 4,
+    "workers": 2,
+    "failures": 10,
+    "recovery": 8,
+    "receiver_regression": 19
+  },
+  "menu_backend": {
+    "cases": 14,
+    "load_bias_cases": 3
+  },
+  "readers": {
+    "flows": 8,
+    "external_callers": 2,
+    "direct_constructors": 2,
+    "blocked": 25,
+    "stale_descriptor_words": 24,
+    "writer_injections": 2
+  },
+  "photo": {
+    "cold_cases": 2,
+    "normal_flows": 50,
+    "errors": 9,
+    "blocked": 4,
+    "bypass": 3,
+    "writer_injections": 4,
+    "native_queued_readers": 7,
+    "dma_faults": 2,
+    "native_queue_writer_injections": 2
+  },
+  "menu_component": {
+    "gates": 64,
+    "contexts": 960,
+    "tasks": 256,
+    "confirmations": 16,
+    "setting_messages": 64
+  },
+  "blockers": [
+    "Physical kernel/OSAL/entropy/filesystem/interchip completion contract is untested.",
+    "A missing AP completion or CP DMA fault retains quarantine; no physical abort/recovery contract has been established.",
+    "Native cancel/delete/reset backend entries are integrated; complete UI key/popup producer, failure feedback and persistence are not validated.",
+    "Known external loaders and CP internal reapply are guarded; external allocation ownership, unrelated memory readers and early parameter reads remain unproven.",
+    "Cold-process session only; warm boot/WBI, live activation and production installer are incomplete.",
+    "AP file is 65536 bytes larger; the old fixed-window installation package is incompatible.",
+    "No camera cold boot, menu UI, preview/playback or full-size JPEG output has been tested."
+  ],
+  "limitations": [
+    "These are selected historical report counts, verified against local report hashes at export; the reports and firmware bytes are not redistributed.",
+    "OS/entropy/filesystem/IPC/DMA/MMIO and parts of the model framework are explicit offline service fixtures.",
+    "No real photo pixels, JPEG/HEIF output, full UI or hardware abort/recovery validation is claimed."
+  ]
+}

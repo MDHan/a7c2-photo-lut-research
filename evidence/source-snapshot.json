@@ -1,0 +1,841 @@
+{
+  "date": "2026-10-21",
+  "scope": "Original research source snapshot; generated firmware, patches, private records and raw reports excluded.",
+  "files": [
+    {
+      "path": "custom-lut-research/binary_queries.py",
+      "sha256": "b2b2f627dbd3b3a09555cd8f5134aa818a65043b1c7c8eedab40faa6f0655c49",
+      "bytes": 2672
+    },
+    {
+      "path": "custom-lut-research/inspect_current_firmware.py",
+      "sha256": "b39187b7e7537d59968101e5343182c97174ea2d74545cdb9c05e3a562c3f93e",
+      "bytes": 6354
+    },
+    {
+      "path": "custom-lut-research/route-a/emulate_parameter_route.py",
+      "sha256": "2449f078f4c44ddcef06af49e04ec39c2f0cbf32ec1ee887b8622d412223f80d",
+      "bytes": 10590
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/ap_entry.S",
+      "sha256": "dc5d2c38424965d3b5ea405bca5aaaaca09bdfe452c7c8b35dbf94b2a4250a0b",
+      "bytes": 507
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/audit.py",
+      "sha256": "dfe3356654455b04525e5804fa3184b38ea31fa343192c702e4f1e83f5cb8c0b",
+      "bytes": 9579
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/audit_dynamic_menu.py",
+      "sha256": "384300a9c3cbf9b85283e1c231e002563ba48c4a9eebd72236c2810219fcc8ea",
+      "bytes": 3947
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/audit_upload_candidate.py",
+      "sha256": "b8ed395a41f2003c3c1f5f458df1458771bc624961fbaecbee0722a66c426963",
+      "bytes": 3763
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build.py",
+      "sha256": "6d7d33aee853e504020a261eefe54c29c8d73568d20e3a299b62ff5c7333bd46",
+      "bytes": 8484
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_cp_handoff_placement.py",
+      "sha256": "2f36a8c70c8b0f1e6cb5b02323c8c546be33a3e211cebe2ce61550a73b0c6505",
+      "bytes": 6371
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_dynamic_menu.py",
+      "sha256": "d7bc21324705a795fee9a596768de74e151cca60183a1dbc8e1e167efc9d413a",
+      "bytes": 5170
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lifecycle_storage.py",
+      "sha256": "9eb964bd25e7a51f9ba4b1366d94a839c1ec024d21753659e179887de2e1cbb7",
+      "bytes": 3713
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_ap_sender.py",
+      "sha256": "c926381575e591c25be50e4915749269230b2046288362d74cf2419553158855",
+      "bytes": 5275
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_cp_ingress.py",
+      "sha256": "c56528cc4b5fe5cca60d0d94b5e6b4de56bab83df2d286fcc1a6963d64e78fea",
+      "bytes": 2442
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_cp_publication.py",
+      "sha256": "ef79700dbec7ff2a1d74c6558aac26732baccea06cc2f6b5ab991d4689946c0f",
+      "bytes": 1723
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_dma_placement.py",
+      "sha256": "050a3d1a179fd98faf75c4c6227d68d3aa2145a6b9c7d08288e59d8c324565bf",
+      "bytes": 7175
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_dma_worker.py",
+      "sha256": "0639c60abb73512179f1f9a221deb72c8a403327ee42ee9b0f486963564676f0",
+      "bytes": 2813
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_events_candidate.py",
+      "sha256": "1fad3940b1449ff4e6d705565eaead07e24ab55f92c3a51eef7c133c5df36035",
+      "bytes": 6722
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_events_cp.py",
+      "sha256": "dbdebdbb885d2609844a6a3dc0cd99288f821d90b7e765804bb570eb41ad4faf",
+      "bytes": 11567
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_events_owner.py",
+      "sha256": "b3e0f073bc9cf4b0facb76ad73e9a68ff521d2893863ae3fc81033ff719b9dc2",
+      "bytes": 10686
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_handoff_ap.py",
+      "sha256": "42ade7e5fa3b9b816b21754b0f6c97b31f0cada920b0b84e73930c4c7c09074b",
+      "bytes": 5632
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_handoff_cp.py",
+      "sha256": "bb74ddb1505f1787687ca5191863dba712835619594b5680d7f6a3ceb665374e",
+      "bytes": 1151
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_ingress_placement.py",
+      "sha256": "8dc47681facf5d94864bc9704c265d44f494dbd8463340d3790f96408c0a4373",
+      "bytes": 8469
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_native_reader.py",
+      "sha256": "4ccfd8342786789b3f6a0e83aa353c9f3c9d55c51167724b017bcd10a70312f7",
+      "bytes": 903
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_photo_reader.py",
+      "sha256": "3195e9c2dd21fc5a341198b7f3fe777820e04ca91ae305457afb7ff2e30263b6",
+      "bytes": 832
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_reader_placement.py",
+      "sha256": "d41082a9babba360ea385cf1f7195a1a5d8033a1702b74444c1e90b47c37edf5",
+      "bytes": 733
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_upload_candidate.py",
+      "sha256": "a88b4fb5ef6d507aa98f43d057c8d9df3bc3931bd838eb36c8aaa65cbee2591f",
+      "bytes": 5651
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_upload_cp.py",
+      "sha256": "88e3b9c5f60ce95b6636dbad6bdeddc835b2c22fba82907902d4a806199764c7",
+      "bytes": 9861
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_lut_upload_owner.py",
+      "sha256": "b6b362b98ed85f3048200731c20e46d1e2b2b46ad0a0772df06ad6e4ae73ee62",
+      "bytes": 9228
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_queue_allocation_guard.py",
+      "sha256": "2f5a360b893f8cfbfd21fcaaea19d6e525606ec907ed125b94d60df852c2949c",
+      "bytes": 2034
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_release_retry.py",
+      "sha256": "e7487d6b263fa762033399b7a75ffc28ed37753c9f46c38853939c8d0d6a3a2f",
+      "bytes": 3210
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_reusable_entry.py",
+      "sha256": "4924611ff869bc1043328a30847b86e25b074ba9631c5a29269d97d4236ae1a0",
+      "bytes": 6350
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_tracked_entry.py",
+      "sha256": "7c249a571fa1721ec31332d21309bb56bcf09c687c8bdcdbd4183dff754baf38",
+      "bytes": 6048
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/build_upload_guards.py",
+      "sha256": "7b4ea797d1d34e524ed127a7756d5fb67f08db76df63b04e5a8eb666d1d78800",
+      "bytes": 5668
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/cp_result.S",
+      "sha256": "ae7b5bcc670452cf8a0537b526687fc3b30e6ab2d32ab2c69efa06067e2a10e9",
+      "bytes": 632
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/install_transaction.py",
+      "sha256": "51cb136aab849d46c93b30182fbdefe4b4ae5d09315361cb96d98f545dd15a45",
+      "bytes": 13590
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_all_readers.h",
+      "sha256": "fb9ac645bac75c177416559554744c11d72c009c65952fde2285c252261b917d",
+      "bytes": 2655
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_ap_sender.c",
+      "sha256": "5a88290a219670c1a78c1615a718ad915db0e56e8f1434c926ab93f87ee9beb9",
+      "bytes": 1162
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_ap_sender.h",
+      "sha256": "0cba4b2fb78c970e1302650c498e12f8af3744f95e8f5a339ca0818d482fc3a2",
+      "bytes": 539
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_context_gate.S",
+      "sha256": "b8a2311ecab324a09364c022011f944ff3880323cabd97030cb0048e1f0a761c",
+      "bytes": 606
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_cp_ingress.c",
+      "sha256": "cc9d807507cc4a7f4cea2f4d0e4c90841cf63b0575767e7eedf6d7268d00df3d",
+      "bytes": 1413
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_cp_ingress_placed.c",
+      "sha256": "43b2db6329715efd1cde261733557e23f5c5d336f201c82bebeb068bb420924f",
+      "bytes": 83
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_cp_publication.c",
+      "sha256": "e7c69eea8c6f41bbe0e52e7019f672597ac6b374f59b869095d46a6b26c4d9bd",
+      "bytes": 2806
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_cp_publication.h",
+      "sha256": "b248d5bbefdba438b721cbbb6f73e2e0516c057b2828557f60b611ea671b2976",
+      "bytes": 1089
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_cp_upload_publication.c",
+      "sha256": "dd9d475c9f552a9e527ddb6667ee0d10621116875ee54e298bb086fcce4e96f5",
+      "bytes": 3759
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_dma_capture.c",
+      "sha256": "27d9643a4f82cf3488ebcde59c3fe4a83bec58c511298f1a3dd7af350746bb7b",
+      "bytes": 348
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_dma_placed_worker.c",
+      "sha256": "71a6ee4b57f66333abd028555e26a9da83efe716d62989ebacd550d9f45b5025",
+      "bytes": 82
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_dma_storage.S",
+      "sha256": "212af789bb8ea398a0263d6aae8fd9fb83701c6c55f6fad4767707549d36a77c",
+      "bytes": 1427
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_dma_worker.c",
+      "sha256": "b827d9ac735ba8b562b58027ceee823d01881f7648046ef5a55e8b885a044cb8",
+      "bytes": 1641
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_cp_ingress.c",
+      "sha256": "bdb5f1282e559d9bbd44e9b1eb15a33f952fb4a7e2652805a6b8f0ac939ccbe1",
+      "bytes": 78
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_cp_storage.S",
+      "sha256": "d0329693bfae51a5c44e801937a2a3ccb02cb756c25edf9777d3f2aba76daa8e",
+      "bytes": 1454
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_native_snapshot.h",
+      "sha256": "5c18f05c276099c257cfa6c852dd93ada0174631035b706c69773e95a673ca2b",
+      "bytes": 930
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_owner.c",
+      "sha256": "b426758c7c2d51600c417e436448219348a35083d49c9959d3d5e5b3d7a222f9",
+      "bytes": 15963
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_owner.h",
+      "sha256": "f001e1c318e1300684833abf19888b67d98a1f5e6e267cf3e8b5ed5e8a42bce7",
+      "bytes": 1107
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_owner_storage.S",
+      "sha256": "482c6d40dbacb8ff71e2b727b7cc49e3b8c2b696030ac0e2d2bcca58de85cba2",
+      "bytes": 793
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_reader_worker.c",
+      "sha256": "f83b49e8c7406279f1ad12118caf0de8133e750bf729ae4987c88921053da6d1",
+      "bytes": 174
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_events_trampolines.S",
+      "sha256": "080f0430bd88cc4943551a4bfa118e125af71eb7f47fa02963816f05d401e092",
+      "bytes": 555
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_ap.c",
+      "sha256": "a19d02d3a64803e904f92610b07b7d579acdaaa7c38f29e99c33d0f95ec1e637",
+      "bytes": 4304
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_ap.h",
+      "sha256": "68d6a571cc89b27ee4ca8332032267892246b63eab3039fac8143ff30bdcca50",
+      "bytes": 1147
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_cp.c",
+      "sha256": "d878179041fd4d96bf18968d742cc0956ca592c52a5ec11698b480dd935e0b92",
+      "bytes": 6425
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_cp.h",
+      "sha256": "3c80ef92721b0bfba8f55bd26d0be2d425ab06186f49afe6f5c8ab5c3a3feec4",
+      "bytes": 1352
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_receive.S",
+      "sha256": "0500c3a2ce0776e4ae04d2e6e67004fd824243a659060be7663b6d0e00980b7b",
+      "bytes": 2067
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_handoff_storage.S",
+      "sha256": "db152029510510c6b12a80763dfe5de50bc21ae8024ba7829d61ea2d81137aa8",
+      "bytes": 1249
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_idle_release.S",
+      "sha256": "1a8908f70e45cbe76c24091af7a2eb674e17e0ce4b5019e7e2453e46c744986b",
+      "bytes": 478
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_ingress_reader_worker.c",
+      "sha256": "3596b41cb9e2c0272619db4147303e2f8ecefb7ba9c39380fbab97a04a85bd11",
+      "bytes": 184
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_ingress_storage.S",
+      "sha256": "192b7aa7d84f922ffbfeebb954a5a43269bdfa7fa6bf71bcf5a9f02143e79545",
+      "bytes": 1459
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_native_reader_storage.S",
+      "sha256": "387ee794cd7771fd577d500bd1badd9e91ab4b478c242cfcaa402d9b9b25d09b",
+      "bytes": 83
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_native_reader_worker.c",
+      "sha256": "aa4238655b418f9d9c12ad8ac31fce39ffd855887cfd4ac9e377a67e48142580",
+      "bytes": 152
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_native_snapshot.h",
+      "sha256": "12570261b5f3066059cb5c72cf0bb0faf87c960833805f943e4dc0d2fb6a6389",
+      "bytes": 898
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_parameter_restore.c",
+      "sha256": "5fc9e597158cfa052548b5d96331bde421a7a075181fe6626e93f2512fed0adc",
+      "bytes": 1160
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_photo_reader_storage.S",
+      "sha256": "e77fe8d35e0d51eb935dd941b25e7f3c8984b6e4f3b2da892419ede40ea37001",
+      "bytes": 82
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_photo_reader_worker.c",
+      "sha256": "5f4982e260631af99737c4c6cafbca0d62b16fa4050fd34788a136c9d1a1fb54",
+      "bytes": 117
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_photo_snapshot.h",
+      "sha256": "e21f58d4cee76945c79cccb2c88d3da4574a91982062b042729ffbf93ee69a91",
+      "bytes": 1156
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_reader_storage.S",
+      "sha256": "c49744cb9e600fbbaa6e00b2e70fdc85e18941f995b0f04d02dc4dbf00ddae17",
+      "bytes": 86
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_reader_worker.c",
+      "sha256": "e25fc8a681ac325806ab06a7b6ebab2ebd8cdffc4e3833a4b364b9a478110611",
+      "bytes": 3490
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_cp_ingress.c",
+      "sha256": "10bde81c24e87758925e88c500c8e7a4faced9727009f9b2e5a94c90b02741e0",
+      "bytes": 78
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_cp_storage.S",
+      "sha256": "e7b92bba65389bca3f8f1c48437fb52f4e3cd652f11b8805e4cd23d46d852680",
+      "bytes": 1454
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_guards.S",
+      "sha256": "e5fc44508173be57c49ba8e5076daeef86a4cc149978e969ce1a17a3e82c0cfc",
+      "bytes": 2045
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_owner.c",
+      "sha256": "6f10d814019d035bbb6eac1f40cbf18b3d41e5c122d705434f792371d57cbcae",
+      "bytes": 11638
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_owner.h",
+      "sha256": "b9c56208a10aa722a80cc44462b44bdd79f21cfd43c3520ac2155e2819a1aad5",
+      "bytes": 1012
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_owner_storage.S",
+      "sha256": "996aac7cdf42d89287fa77dd3908c5f867b30df4fb03ed8d6f1d436b23008c3e",
+      "bytes": 417
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_reader_worker.c",
+      "sha256": "31002b7f25b4e2c757b8a0856689c420c69a80fed2a04ca0cc311f0445670268",
+      "bytes": 179
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/lut_upload_restore.c",
+      "sha256": "597d31e22c64f0c4e5ce620c4ac204b4f126117ef9b390621edc97af764ffdcb",
+      "bytes": 1095
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native/linux_platform.c",
+      "sha256": "a6d81902817a5a14a9a5628c0ad3ff270bba224062238f40d79a7a24af13b81d",
+      "bytes": 10961
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native/linux_platform.h",
+      "sha256": "14f4e2bbaeefa099d5b83b4c71fb5fe3fe00e054626c20f4c3f18acdb80d23bc",
+      "bytes": 1234
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native/pair_core.c",
+      "sha256": "ae03313d69351e063dd347ed554da27e8140744274a9bdc423ae88e992505b00",
+      "bytes": 7404
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native/pair_core.h",
+      "sha256": "992dea9929383ac876e333cd593c92525226fb4d97f3a155c517651d2663bd32",
+      "bytes": 1925
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native/sha256.h",
+      "sha256": "85dc96693857e6f4b9f9035e5c5b02b80a49ab44082f0c19dc46cd5c0400238e",
+      "bytes": 2514
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native_pair_backend.py",
+      "sha256": "ba0844127f470f9759d9f3a40350a5e4d118e8fc064d6d5ad638c46982ad32d2",
+      "bytes": 8400
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native_pair_report.py",
+      "sha256": "7b004546a699c3b166e28db2c7d8159d47f210356411dcc6c5f47509fb62bdbd",
+      "bytes": 2109
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/native_write_order.py",
+      "sha256": "40479b977c1738b1963f8d1f8ff53725e2cc1e2335673ed0bc17df38e1cbe4cb",
+      "bytes": 3808
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut.c",
+      "sha256": "500e35294700f1e0691d0d2ccff39ea8719e625a4a51590bfc8d61c11b2d9e0e",
+      "bytes": 5227
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_callbacks.S",
+      "sha256": "d113229486aff7070e6087902fe55fff9c1e225e60d27bc5b9f460bf1e325f6d",
+      "bytes": 811
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_completion.c",
+      "sha256": "6a4d818d3b7bd5673fb04282aed28ed1c7856228d752d8eb8ccb8314da6b6e27",
+      "bytes": 2703
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_completion.h",
+      "sha256": "69c695779ac9425429f511eb9ac699fcd2e6006ddf16101a66f62ba41f50d212",
+      "bytes": 806
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_lifetime.c",
+      "sha256": "3ae2ac82e2b398c696d58e40300d0c58c4508e8395bf0c6d3a921b4c35f92a62",
+      "bytes": 2442
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_lifetime.h",
+      "sha256": "126479b95b5e44f75425a609b09af41675494a119719623082568b8e448a3ed6",
+      "bytes": 1567
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_notify.c",
+      "sha256": "f2f5f93b5739405bb798b9c3a7a801b49db2d02342f725bab4b1758273c5ed6b",
+      "bytes": 1378
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_reusable.c",
+      "sha256": "4754746efc06592bf0eab53cbe23ef85236255c53531761a945f3005199679f3",
+      "bytes": 7165
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_storage.S",
+      "sha256": "055951dad73d7bea550aaef4be3a17785532c42e2087be1dde63a364dac86a4f",
+      "bytes": 596
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/photo_lut_tracked.c",
+      "sha256": "ad2d7786929b6a82b001e75731bd477d073e3428e40c3ecc6654755a7c05ddb8",
+      "bytes": 7152
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/prepare_package.py",
+      "sha256": "06b2696c7975afd6be548fb84f279ef851af9b932cfe922f7ed139475e9c4ee1",
+      "bytes": 4026
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/restore_baseline.py",
+      "sha256": "f8bd61bfa3192565c616a6a8db8b510de17a47048332f35b1a66adcb183e6880",
+      "bytes": 1230
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_install_transaction.py",
+      "sha256": "d768ac1aaa7df441776ff288357a774deeca1c369aadc659c50846ff76d8990d",
+      "bytes": 11065
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_linux_platform.py",
+      "sha256": "1f17ed6da7f149a6bef7a9cd307097af5291eedaa4e3b96f7da8a98da2908697",
+      "bytes": 12378
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_lut_lifetime_threads.py",
+      "sha256": "bb3ea898d6615913dd5c65bd2e2b33d1415d2f39c2347605d6ef6be8a064089b",
+      "bytes": 3833
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_native_pair_bridge.py",
+      "sha256": "5f5e3b6c86159759cd1a1aba8c8a95af82844e2e15946fbaf002544a1673cda5",
+      "bytes": 11051
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_native_pair_core.py",
+      "sha256": "2ce6f5378290abe00a47e9713e25dca1f4fed5dcb1e7917c0376c4b741830487",
+      "bytes": 15997
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/test_pair_transaction.py",
+      "sha256": "2ff91cfd477692729ed08712d16b6f9bcf651ad901ee2e1e0c06b67054657e10",
+      "bytes": 13443
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/trace_lut_ingress_boundaries.py",
+      "sha256": "f551522a504e71da893416c2a9502d8af9cad8d6a111dff90caa19108653c79e",
+      "bytes": 3797
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify.py",
+      "sha256": "475306ae33b89a493d92ed7fde792a9ef40d4c7d6029ad3a1932e5b67daaf1b0",
+      "bytes": 16152
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_ap_reply_handoff.py",
+      "sha256": "cc0be2272a7a55204332712107c3584564f0f069a8af71b458e34581956198e2",
+      "bytes": 12544
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_callback_reconstruction.py",
+      "sha256": "17a49acbf60f4273c2184057037ed63dadd6bbb505ac7462fdbd614615d7ce47",
+      "bytes": 3247
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_capture_sequence_scope.py",
+      "sha256": "e193021406ef28b596a74472542453228d7dc6de59e5478e3eb4611e8a50192b",
+      "bytes": 9090
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_cp_handoff_placement.py",
+      "sha256": "f720e97fa0a7518ca2ead50a441686dbf079d814c4825ba8186b54d2d5bf9610",
+      "bytes": 9847
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_dynamic_menu.py",
+      "sha256": "eaf901de07784614bbffefb90de61b9483c27d928d8b9af5424f619dc2123746",
+      "bytes": 11574
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_installer.py",
+      "sha256": "75b6342a974b56557df5d6703378b0738dd7b0446b7f3b17c48f72ac78de5439",
+      "bytes": 5415
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_linux_platform.py",
+      "sha256": "3c03f22cb6f15a94845567cf8b7e8e9083f6d0d8c243cd3aabcd05bbddb260e5",
+      "bytes": 7574
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_ap_sender.py",
+      "sha256": "1260c91ab7fff455e4fee0318503fb463eeac58d3016db49d7060b19de3ddd87",
+      "bytes": 9939
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_ap_transfer.py",
+      "sha256": "797961fe8b78442afeed491c0090a93495676df5666daed18d972849337d837d",
+      "bytes": 7975
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_cp_ingress.py",
+      "sha256": "38b9a5f7b7aca4825100699c5ae2fe0110761a7663602f2ca406161116e002c2",
+      "bytes": 12631
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_cp_publication.py",
+      "sha256": "09e605028e891a02a4fdb53eebee3284121d74ec0606e5cbaeb64d63591997ad",
+      "bytes": 12953
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_dma_placement.py",
+      "sha256": "9c1a7b36c406e1e99ac08f3ffcc43cab8ccf8bef0ba1fa9d8e3edf41771ff459",
+      "bytes": 10659
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_dma_worker.py",
+      "sha256": "41a1aa8f5b3db5f93095357fa7d1e4120d42b518991dcd1151f1239e8ce35c3b",
+      "bytes": 8858
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_events_cp.py",
+      "sha256": "7a53cb33aa52595a4efbfacb24d099abdb3429632658f86619ce5b2b31b1bd7a",
+      "bytes": 8145
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_events_integration.py",
+      "sha256": "0ddee0594db2ce11ea2a0b47fee47dcf8cfb27fc302bd9a82e71a1fb618e2edb",
+      "bytes": 23743
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_events_photo.py",
+      "sha256": "b02d3012f98295fa09866671e080fd8ea54812bcfcd9884ddeecfcdb402ab631",
+      "bytes": 2271
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_events_readers.py",
+      "sha256": "ce62e24ecb69f6140267b1eb4882724052dbe14d4e15219cb6aec58d653ed931",
+      "bytes": 8620
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_handoff_ap.py",
+      "sha256": "ccd010e870497558b5d16a49665204bd159473a0304e290500973db816f7830a",
+      "bytes": 14547
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_handoff_cp.py",
+      "sha256": "b8852adb776c023a7ab429be93c8428388d9c0ccf87ec30a4f85d40c49457e20",
+      "bytes": 16252
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_ingress_placement.py",
+      "sha256": "00ecc264722169f96f71c4671079880b15abfc4068f34398568d1184ffe1c5a0",
+      "bytes": 13778
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_lifetime.py",
+      "sha256": "d18c41ddb0a2b4ae6fe0f992ed3045936d757bf730a5ca1415a062f86e886612",
+      "bytes": 12668
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_menu_events.py",
+      "sha256": "3ffc3a11181684d18ffdfbd8c194a1584343d9c54418718016c19ae38cf96ac4",
+      "bytes": 10206
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_native_reader.py",
+      "sha256": "00dd8f43c16adadb174ec02be1b36e9894bf607f24effd67e5d8802ecb6ec382",
+      "bytes": 13259
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_ownership.py",
+      "sha256": "15646c4e71cf4e31316c9c4a80995a90644aa83adab354dfaa6ab969f643e3b7",
+      "bytes": 11723
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_photo_reader.py",
+      "sha256": "3330564528104464e8f69f320592d791691210aa52e524569559fecf5dffeb87",
+      "bytes": 14410
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_reader_placement.py",
+      "sha256": "4733f50e315e567db86a91286050bad38dc4d09faa99f94a60abb6f047493ea1",
+      "bytes": 11872
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_reader_queue.py",
+      "sha256": "82ce668b1c40ade75067ab483f49dd1824e60e86c49806471eec68f9cadc2b70",
+      "bytes": 5358
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_send_scope.py",
+      "sha256": "fa536f9b69a69c5998952876345727d24e8fe8bb6dc400893225c86908a88895",
+      "bytes": 4803
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_storage.py",
+      "sha256": "43e8e82e9b14333bda840e00ff6728012bbabfa4334d60d42d6fd1b50ed8d36c",
+      "bytes": 8275
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_upload.py",
+      "sha256": "d231678b9771f8c9d44440bca527aa7aeed281f9dfe1b65f2777fec0ec3c1abe",
+      "bytes": 14398
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_upload_cp.py",
+      "sha256": "574f7f5d09baa483cfbfb2274a2b65a194cf9935b6a75cc163a2483aac49bdfd",
+      "bytes": 8145
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_upload_owner.py",
+      "sha256": "b3b0809d665846bef9691788a7777875c0813092d59756af622e0f38b941612f",
+      "bytes": 23721
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_lut_upload_photo_regression.py",
+      "sha256": "719d2e8a7698778b83f1c9c71838c55f34ad40624011b80ec02af989031d90bf",
+      "bytes": 1381
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_menu.py",
+      "sha256": "15de843e57a91ddc0071ee2829a035a7c49e043a29d881bee430330bcb989524",
+      "bytes": 14467
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_menu_rules.py",
+      "sha256": "60b3a938b286d574728f24b8b185facca585c30c7b000f3f6da785bcd810189e",
+      "bytes": 3602
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_menu_value_callbacks.py",
+      "sha256": "0f8065d27e085ebfcf56ce420c92f4fc9d86e9eabfc86c1ef21db76bcdab79ff",
+      "bytes": 4698
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_native_pair_bridge.py",
+      "sha256": "fb1cf05b247b7f91d7ab389c73fa996dc782b4fa3dd466eccb3ed66853c02591",
+      "bytes": 4876
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_native_pair_core.py",
+      "sha256": "1d9eb7056acbdd3b9d5bdc56770ecac27d20a6a9041d0301baf394567c2be9c3",
+      "bytes": 4238
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_native_reply_scope.py",
+      "sha256": "4632338d0397af1289f3868851015aaa1404f51040a188fecf213e025dca359e",
+      "bytes": 6821
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_native_write_order.py",
+      "sha256": "2fa9bd36afe89d39bbc124731a45d79751ff7feb1124b321c9aee4bb96f47b66",
+      "bytes": 6886
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_pp_exclusion_queue.py",
+      "sha256": "ab8e199012af5dcf12274f959a4dd790684eb02f2a0b6a46a7ccbb305a199b21",
+      "bytes": 12109
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_pp_setting_banks.py",
+      "sha256": "f841fbba6e1f31b944d90f67b15d3d3b107e18d7163150802571cd673881d252",
+      "bytes": 6413
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_preflash_menu_current.py",
+      "sha256": "3fd6b3bab0465e8256b244030ddf97d346a74d9a7e6e01402ed21c6cf082f13f",
+      "bytes": 3880
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_queue_allocation_guard.py",
+      "sha256": "472b0bf8afc3082feaa131cd25ba864a25d32da88f0ecb8dddc51f3111636eea",
+      "bytes": 8523
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_queue_completion.py",
+      "sha256": "b4d2395e30eb40da2d605822fa00252da4594ebe09bd5cc9085e6bbd3bcf9859",
+      "bytes": 9787
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_release_retry.py",
+      "sha256": "bec37c7002908c4a7ae95de2b9e627b4a056d39f6bd525dd0e8b950070a75a3d",
+      "bytes": 5904
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_resource_release.py",
+      "sha256": "a50e2b050627b0d0434b1712b689ec4b014b1b6fad065d454944498ece6c3718",
+      "bytes": 8883
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_reusable_entry.py",
+      "sha256": "090e1bacb1b0da3a86484bfcb28c09cc6ebf45d2e7528c71546faa22a21e88fb",
+      "bytes": 12335
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_rule_relocations.py",
+      "sha256": "bd082016f03d6b2aed3702793a9df17a0e30ad34408e807e8341b86e2411f5ad",
+      "bytes": 6649
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_sequence_scheduling.py",
+      "sha256": "e44127f571a9e935c65d63b56d50119a5f4a3f8ab9d2f208d0e717986a880e1f",
+      "bytes": 11084
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_settings_commit.py",
+      "sha256": "c7354b8d6e262202af4c004cf367085d18eb00b8f130e8247e640c97b566b41b",
+      "bytes": 12661
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_shared_buffer_interleaving.py",
+      "sha256": "e8bee4d0ff59d84be6c4c40abec73c809a5d20e3342b40c5dd2649cda29d5ce3",
+      "bytes": 11560
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_tracked_entry.py",
+      "sha256": "99b48532b450653225fdd2d790983ae652fed61095586b8218a2864108aedc16",
+      "bytes": 11600
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_upload_guards.py",
+      "sha256": "dd1a315fd49afd1090ce6fd1e1e1e4d546c9fb004efcbe869203d3a727edcd43",
+      "bytes": 9694
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_upload_package.py",
+      "sha256": "fb846d1323475610dd2dbad199f4efb9fe7e6d6b92f92007250a42e5a85e0791",
+      "bytes": 4124
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/verify_vfx_completion.py",
+      "sha256": "ee9009c743a8db653f77263a9d2e94a0da44466771c7f514edf90a5aceddbf42",
+      "bytes": 13473
+    },
+    {
+      "path": "custom-lut-research/route-a/offline-v0.5/vfx_callback_tag.S",
+      "sha256": "5c2fa421df5530552b0e0589c4a7ea88b127bcff4e4a5d03a47838abeb2fd067",
+      "bytes": 803
+    }
+  ]
+}

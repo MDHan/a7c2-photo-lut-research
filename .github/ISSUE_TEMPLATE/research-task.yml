@@ -1,0 +1,24 @@
+name: Research task / 研究接手
+description: Propose or take a focused task with an evidence boundary.
+body:
+  - type: input
+    id: scope
+    attributes:
+      label: Task and scope / 任务与范围
+      description: T1–T6 or another specific problem, function or behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Existing evidence / 已有证据
+      description: Source locations, program fingerprints and current uncertainty; no firmware or personal logs.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Acceptance and validation / 验收方法
+      description: What will execute, which services are fixtures, and what will remain unproven?
+    validations:
+      required: true

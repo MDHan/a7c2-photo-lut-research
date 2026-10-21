@@ -1,0 +1,7 @@
+{
+  "scope": "Exact pre-existing FL2/FL3 baseline, not a stock Sony update and not dev-events-05. Supply your own lawful local inputs; this repository distributes none.",
+  "files": {
+    "appFw.so": "1aaeb8fbe0297950cab454d498d1a5ba874f91542aa2737aae27a73971e324d7",
+    "cpapp-b.bin": "60a9de1a0636c7f6b5b98607a4d25eeb48634e25294f632743a6d256e583b370"
+  }
+}
